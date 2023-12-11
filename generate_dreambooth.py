@@ -41,12 +41,7 @@ def generate_images(prompt, model_path, steps, output_folder):
 		print("image saved to " + file_name)
 
 def main():
-	PROMPTS = [
-	"oil painting of sks dog in style of van gogh",
-	"sks dog ultra realistic portrait, high definition, 8k, vibrant color",
-	"a cute sks dog in pastel crayon style",
-	"a simple sketch of sks dog made in pencil, a minimum number of black lines on a white background",
-	]
+	PROMPTS = ["oil painting of sks dog in style of van gogh"]
 
 	args = parse_args()  # get arguments
 	for prompt in PROMPTS:
