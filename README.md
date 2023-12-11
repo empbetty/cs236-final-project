@@ -1,5 +1,7 @@
 # cs236-final-project
 
+This directory contains code for cs236 final project. The training is based on Huggingface Diffuser library: https://github.com/huggingface/diffusers
+
 ## Upload Dataset
 load_dataset.py
 
